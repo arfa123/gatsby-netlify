@@ -1,6 +1,6 @@
 import React from "react";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 
 export default function Product({ pageContext }) {
 	const { itemDetails } = pageContext;
